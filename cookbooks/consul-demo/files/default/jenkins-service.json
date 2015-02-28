@@ -1,0 +1,14 @@
+{
+  "service": {
+    "name": "jenkins",
+    "tags": ["jenkins"],
+    "address": "127.0.0.1",
+    "port": 8080,
+    "checks": [
+      {
+        "script": "echo ok",
+        "interval": "10s"
+      }
+    ]
+  }
+}

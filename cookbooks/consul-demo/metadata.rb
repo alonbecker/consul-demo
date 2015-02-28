@@ -1,0 +1,12 @@
+name             'consul-demo'
+maintainer       'The Authors'
+maintainer_email 'you@example.com'
+license          'all_rights'
+description      'Installs/Configures consul-demo'
+long_description 'Installs/Configures consul-demo'
+version          '0.1.0'
+
+depends 'apt', '~> 2.6.1'
+depends 'consul', '~> 0.8.3'
+depends 'consul_kv', '~> 1.0.0'
+depends 'jenkins', '~> 2.2.2'
